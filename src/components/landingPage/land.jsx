@@ -20,7 +20,6 @@ function Land() {
             <main>
                 <header>
                     <Carousel
-                        swipeable={true}
                         showIndicators={true}
                         showStatus={false}
                         autoPlay={true}

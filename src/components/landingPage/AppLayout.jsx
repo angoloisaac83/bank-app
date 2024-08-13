@@ -21,7 +21,7 @@ const menu = () => {
                                 <li>ABOUT US</li>
                                 <li>FEES</li>
                             </ul>
-                    <button onClick={menu} className='desktop:hidden flex'><IoMenuOutline /></button>
+                    <button onClick={menu} className='desktop:hidden text-3xl flex'><IoMenuOutline /></button>
                 </span>
                 <span className='flex text-xl font-semibold gap-[5px] items-center justify-center w-fit h-fit'>
                     <button>Login</button>
