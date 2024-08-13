@@ -3,13 +3,10 @@
 @tailwind utilities;
 
 *{
-  font-family: "Anek Devanagari", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
+  font-style: normal;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
