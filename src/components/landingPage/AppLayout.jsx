@@ -13,14 +13,14 @@ const menu = () => {
     return(
         <>
         <main className='flex flex-col gap-[10px] w-full h-fit overflow-y-auto items-cenetr justify-center'>
-            <nav className="flex w-full desktop:px-[50px] shadow-xl h-fit py-[7px] items-center justify-between px-[10px]">
+            <nav className="flex w-full desktop:px-[50px] shadow-xl h-fit py-[12px] items-center justify-between px-[10px]">
                 <span className='w-fit h-fit desktop:gap-[30px] flex items-center justify-center'>
                     <i className='font-semibold text-3xl'>Payyed</i>
-                <ul className='w-fit hidden transition-all desktop:flex p-[10px] font-medium z-[100] bg-white text-md gap-3 left-0'>
-                                <li>SEND</li>
-                                <li>RECIEVED</li>
-                                <li>ABOUT US</li>
-                                <li>FEES</li>
+                <ul className='w-fit hidden transition-all desktop:flex p-[10px] text-sm font-semibold z-[100] bg-white text-md gap-3 left-0'>
+                                <li className='hover:text-green-500 cursor-pointer'>SEND</li>
+                                <li className='hover:text-green-500 cursor-pointer'>RECIEVED</li>
+                                <li className='hover:text-green-500 cursor-pointer'>ABOUT US</li>
+                                <li className='hover:text-green-500 cursor-pointer'>FEES</li>
                             </ul>
                     <button onClick={menu} className='desktop:hidden text-3xl flex'><IoMenuOutline /></button>
                 </span>
