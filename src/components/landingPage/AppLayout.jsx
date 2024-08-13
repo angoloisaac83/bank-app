@@ -3,6 +3,7 @@ import { IoMenuOutline } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const AppLayout = ({ children }) => {
 const [isOpen,setIsOpen] = useState(false)
@@ -24,8 +25,8 @@ const menu = () => {
                     <button onClick={menu} className='desktop:hidden text-3xl flex'><IoMenuOutline /></button>
                 </span>
                 <span className='flex text-xl font-semibold gap-[5px] items-center justify-center w-fit h-fit'>
-                    <button>Login</button>
-                    <button className='bg-green-500 text-white py-[6px] p-[10px] rounded-md'>Sign Up</button>
+                    <Link to="/login"><button>Login</button></Link>
+                    <Link to="/register"><button className='bg-green-500 text-white py-[6px] p-[10px] rounded-md'>Sign Up</button></Link>
                 </span>
                 {
                     isOpen ? (
