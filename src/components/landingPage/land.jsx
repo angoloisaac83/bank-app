@@ -99,19 +99,19 @@ function Land() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reprehenderit dolor cum eum ratione id expedita minus est delectus maxime sapiente placeat enim, veritatis commodi aspernatur distinctio ipsum suscipit. Totam.</p>
                         <p className="flex gap-[5px] text-green-500 font-semibold items-center justify-center w-fit text-center h-fit pt-[10px]">Find more solution <IoIosArrowForward /></p>
                     </span><section className='desktop:flex desktop:flex-wrap desktop:gap-[5px] desktop:w-[50%]'><div className='w-full desktop:w-[42%] h-fit pt-[15px] flex items-end justify-end'>
-                        <img className='w-full h-[240px]' src={freelancer} alt="" />
+                        <img className='w-full h-[240px] object-cover' src={freelancer} alt="" />
                         <span className='absolute m-auto desktop:left-[51%] desktop:w-[20%] left-[13px] w-[93%] flex items-center justify-center bg-[rgba(0,0,0,0.34)] text-white text-2xl py-[8px] text-center'><p>Freelancer</p></span>
                     </div>
                         <div className='w-full desktop:w-[42%] h-fit pt-[15px] flex items-end justify-end'>
-                            <img className='w-full h-[240px]' src={shopping} alt="" />
+                            <img className='w-full h-[240px] object-cover' src={shopping} alt="" />
                             <span className='absolute m-auto desktop:left-[71.5%] desktop:w-[20%] left-[13px] w-[93%] flex items-center justify-center bg-[rgba(0,0,0,0.34)] text-white text-2xl py-[8px] text-center'><p>Online Shopping</p></span>
                         </div>
                         <div className='w-full desktop:w-[42%] h-fit pt-[15px] flex items-end justify-end'>
-                            <img className='w-full h-[240px]' src={sellers} alt="" />
+                            <img className='w-full h-[240px] object-cover' src={sellers} alt="" />
                             <span className='absolute m-auto desktop:left-[51%] desktop:w-[20%] left-[13px] w-[93%] flex items-center justify-center bg-[rgba(0,0,0,0.34)] text-white text-2xl py-[8px] text-center'><p>Online Sellers</p></span>
                         </div>
                         <div className='w-full desktop:w-[42%] h-fit pt-[15px] flex items-end justify-end'>
-                            <img className='w-full h-[240px]' src={affiliate} alt="" />
+                            <img className='w-full h-[240px] object-cover' src={affiliate} alt="" />
                             <span className='absolute m-auto desktop:left-[71.5%] desktop:w-[20%] left-[13px] w-[93%] flex items-center justify-center bg-[rgba(0,0,0,0.34)] text-white text-2xl py-[8px] text-center'><p>Affiliate Marketing</p></span>
                         </div></section>
                 </section>
