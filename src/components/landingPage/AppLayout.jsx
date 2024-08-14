@@ -26,7 +26,7 @@ const menu = () => {
                 </span>
                 <span className='flex text-xl font-semibold gap-[5px] items-center justify-center w-fit h-fit'>
                     <Link to="/login"><button>Login</button></Link>
-                    <Link to="/register"><button className='bg-green-500 text-white py-[6px] p-[10px] rounded-md'>Sign Up</button></Link>
+                    <Link to="/register"><button className='bg-green-500 text-white py-[6px] p-[10px] rounded-sm'>Sign Up</button></Link>
                 </span>
                 {
                     isOpen ? (
